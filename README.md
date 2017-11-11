@@ -19,7 +19,7 @@ Works perfectly fine on mobile device
 We've verfied this and its works across all browser because we're just using simple CSS3 and Angular for dynamicity
 
 ## Make table responsive on tablets? 
-Just simply go to responsive.component.css file and in media query change from '767px' to '1204px' on which all tablets will also works responsivesly. 
+Just simply go to responsive.component.css file and in media query change from '767px' to '1024px' on which all tablets will also works responsivesly. 
 
 ## Feedback?
 We're always open to hear from you? Please send us your feedback
