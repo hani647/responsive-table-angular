@@ -1,0 +1,33 @@
+.responsive-table {
+  font-family: "Open Sans", sans-serif;
+}
+.responsive-table caption {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 766px) {
+  .responsive-table {
+    border: 0px;
+  }
+  .responsive-table thead{
+    display: none;
+  }
+  .responsive-table tr {
+    margin-bottom: 20px;
+  }
+  .responsive-table tr,
+  .responsive-table tbody tr td{
+    border: 1px solid #cccccc;
+    display: block;
+    text-align: right;
+  }
+  .responsive-table tbody tr td {
+    padding: 10px 10px 10px 120px;
+  }
+  .responsive-table tbody tr td::before {
+    content: attr(data-label);
+    float:left;
+    margin-left: -110px;
+    font-weight:bold;
+  }
+}

@@ -1,0 +1,32 @@
+
+<table class="responsive-table" width="100%" border="1">
+  <!--CAPTION / HEADING-->
+  <caption>
+    Responsive Table
+  </caption>
+  <!-- / CAPTION / HEADING-->
+  <!--THEAAD-->
+  <thead>
+    <tr>
+      <!--NAME HEADING-->
+      <th *ngFor=" let heading of tableData[0] | keys; ">
+        {{heading.key}}
+      </th>
+      <!--/ NAME HEADING-->
+    </tr>
+  </thead>
+  <!--/ THEAD-->
+  <!--TBODY-->
+  <tbody>
+  <!--TR-->
+  <tr *ngFor="let row of tableData; let i = index">
+    <!--NAME HEADING-->
+    <td *ngFor="let column of row | keys" [attr.data-label]="column.key" >
+      {{column.value}}
+    </td>
+    <!--/ NAME HEADING-->
+  </tr>
+  <!--/ TR-->
+  </tbody>
+  <!--/ TBODY-->
+</table>
