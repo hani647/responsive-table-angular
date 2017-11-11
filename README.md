@@ -1,4 +1,4 @@
-# NgCliLibrary
+# angular-responsive-table
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
@@ -6,23 +6,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Dynamic rows and column
+Rows and columns are generated dyanamically you just need to pass array of object and keep the key name as your table table heading
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Free to style
+You can freely apply your own styling using simple CSS3 properties.
 
-## Build
+## Mobile Responsive Table
+Works perfectly fine on mobile device 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Cross browser suppor
+We've verfied this and its works across all browser because we're just using simple CSS3 and Angular for dynamicity
 
-## Running unit tests
+## Make table responsive on tablets? 
+Just simply go to responsive.component.css file and in media query change from '767px' to '1204px' on which all tablets will also works responsivesly. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Feedback?
+We're always open to hear from you? Please send us your feedback
 
-## Running end-to-end tests
+Author: Muhammad Hani
+Email: mohdhani61@hotmail.co.uk
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Thanks, Happy coding :) 
